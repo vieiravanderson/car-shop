@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Shop</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Sport Cars</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-nos">
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#corridas">
+                            Corridas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#modelos">
+                            Modelos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div class="carousel slide" id="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active d-block" data-bs-interval="3000">
+                        <img src="./images/car1.jpg" alt="Carro branco Mercedes">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/car2.jpg" alt="Carro prata Mercedes">
+                    </div>  
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/car3.jpg" alt="Ferrari azul">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/shop.jpg" class="d-block w-100 rounded" alt="Interior da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a loja</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut voluptatibus vel unde esse inventore cum excepturi accusamus cumque, molestias aliquid laboriosam accusantium, adipisci illo nisi totam similique ipsum! Enim, omnis.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, facilis recusandae cum at repudiandae molestiae sed, aliquid voluptates modi, obcaecati ut magni. Minima, laborum inventore ut odio molestias eligendi soluta?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi at earum fugit est ducimus quod dignissimos odit non totam dicta accusantium, harum officia, quidem quam aut cumque ex distinctio error.
+                                </p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section id="corridas" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Corridas organizadas</h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="./images/circuit-racing.jpg" alt="Corrida em autódromo" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        Circuit Racing
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis obcaecati vel odit delectus at rem soluta eaque quasi magni. Distinctio sequi nisi assumenda magnam hic maxime alias nostrum magni dolores.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/drag-racing.jpg" alt="corrida de arrancada" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        Drag Racing
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis obcaecati vel odit delectus at rem soluta eaque quasi magni. Distinctio sequi nisi assumenda magnam hic maxime alias nostrum magni dolores.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/rally-car.webp" alt="rally" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        Rally
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis obcaecati vel odit delectus at rem soluta eaque quasi magni. Distinctio sequi nisi assumenda magnam hic maxime alias nostrum magni dolores.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="modelos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Para todos os gostos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills nav-modelos">
+                            <button type="button" class="fw-bold text-start nav-link text-colored active" data-bs-toggle="tab" data-bs-target="#esportivos">Carros Esportivos</button>
+                            <button type="button" class="fw-bold text-start nav-link text-colored" data-bs-toggle="tab" data-bs-target="#muscle">Carros Muscle</button>
+                            <button type="button" class="fw-bold text-start nav-link text-colored" data-bs-toggle="tab" data-bs-target="#luxo">Carros Luxo</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="esportivos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/350-z.jpeg" alt="350-z">
+                                        <h5 class="fw-bold mt-2">Nissan 350-z</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/911-gt3.jpg" alt="Porshe 911-gt3">
+                                        <h5 class="fw-bold mt-2">Porshe 911-gt3</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/lancer.jpg" alt="Lancer">
+                                        <h5 class="fw-bold mt-2">Lancer Evo</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/m3-gtr.jpg" alt="BMW M3">
+                                        <h5 class="fw-bold mt-2">BMW M3 GTR</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/skyline-gtr.webp" alt="Nissan Skyline">
+                                        <h5 class="fw-bold mt-2">Skyline GTR</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="muscle">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/charger-rt.jpg" alt="Dodge Charger R/T">
+                                        <h5 class="fw-bold mt-2">Charger R/T</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/corvette-z06.webp" alt="Corvette Z06">
+                                        <h5 class="fw-bold mt-2">Corvette Z06</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/gt-500.jpg" alt="GT-500">
+                                        <h5 class="fw-bold mt-2">Shelby GT-500</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/hemi-cuda.jpg" alt="Hemi Cuda">
+                                        <h5 class="fw-bold mt-2">Plymouth Hemi Cuda</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/mustang-gt.webp" alt="Mustang-GT">
+                                        <h5 class="fw-bold mt-2">Mustang-GT</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="luxo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/carrera-gt.jpg" alt="Porshe Carrera GT">
+                                        <h5 class="fw-bold mt-2">Porshe Carrera GT</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/gallardo.jpg" alt="Lamborghini Gallardo">
+                                        <h5 class="fw-bold mt-2">Lamborghini Gallardo</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images//murcielago.jpg" alt="Lamborghini Murcielago">
+                                        <h5 class="fw-bold mt-2">Lamborghini Murcielago</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/aston-martin.jpg" alt="Aston Martin DB9">
+                                        <h5 class="fw-bold mt-2">Aston Martin DB9</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/lemans-quattro.jpg" alt="Audi Lemans-Quattro">
+                                        <h5 class="fw-bold mt-2">Audi Lemans-Quattro</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div> 
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Fale Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-3 ms-4">
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua do automóvel, 762 - Centro - São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
